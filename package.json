@@ -1,5 +1,5 @@
 {
-  "name": "blackbone",
+  "name": "trape",
   "version": "1.0.0",
   "description": "fullstack side project",
   "main": "server.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mehdiBell/blackbone.git"
+    "url": "git+https://mehdiBell@github.com/mehdiBell/trape.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mehdiBell/blackbone/issues"
+    "url": "https://github.com/mehdiBell/trape/issues"
   },
-  "homepage": "https://github.com/mehdiBell/blackbone#readme",
+  "homepage": "https://github.com/mehdiBell/trape#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "express": "^4.17.1",

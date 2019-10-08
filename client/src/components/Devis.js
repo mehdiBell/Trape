@@ -45,7 +45,8 @@ class Devis extends Component {
         <div className='row mt-5 mb-3'>
           <div className='col-md-6 mx-auto' style={{ marginTop: '8vh' }}>
             <div className='card card-body'>
-              <h3 className='text-center mb-4'>Devis</h3>
+              <h3 className='text-center mb-4'>Devis gratuit <br/><p><i>Réponse sous 3 jours ouvrès</i></p></h3>
+             
               <form className='form' onSubmit={e => this.onSubmit(e)}>
                 <div className='form-group'>
                   <div className='form-group'>

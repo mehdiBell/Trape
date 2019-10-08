@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
 
 import video from '../video/video.mp4';
+import imgSrc from '../img/protection/securite.jpg';
 
 const Landing = () => {
   return (
@@ -26,15 +27,21 @@ const Landing = () => {
         </div>
       </section>
       <div className='landing-test-1'>
-        <h1 className='x-large'>Trapeze ...</h1>
-        <p className='lead'>La photo pourrait être celle de l'équipe Trapeze</p>
-        <div className='buttons'>
-          <Link to='/prestations' className='btn btn-primary'>
-            Prestations
-          </Link>
-          <Link to='/recrutement' className='btn btn-light'>
-            Postuler
-          </Link>
+        <h3 className='text-center'>Bâtiment</h3>
+        <div className="splitScreen">
+          <img
+            src={imgSrc}
+            alt='shit'
+            style={{ borderRadius: '25px' }}
+          />
+          <p className='lead mr-4'>
+            Réparation Gouttière En matière de réparation gouttière et ce quelle
+            que soit la difficulté d’accès de vos toitures, nos couvreurs
+            cordistes interviennent rapidement et efficacement pour la pose ou
+            la réparation de gouttières, de cheneaux et de descentes d’eaux
+            pluviales. Réparation gouttière : Rapidité et qualité d’intervention
+            pour la réparation des cheneaux et de descentes d’eaux pluviales
+          </p>
         </div>
       </div>
     </Fragment>

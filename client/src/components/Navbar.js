@@ -1,21 +1,25 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
 
+import logo from '../img/Logo.png';
+
 const Navbar = () => {
   return (
     <Fragment>
-      <nav className='navbar bg-dark'>
+      <nav className='navbar'>
         <h3>
           <Link to='/'>
-            <i className='fas fa-code' /> Trapeze
+            <img src={logo} alt="logo" style={{ height: '8vh', width: 'auto', fontFamily: "Times New Roman" }} />
           </Link>
         </h3>
         <ul>
           <li>
-            <Link to='/prestations'>Nos prestations</Link>
+            <Link to='/prestations' style={{ fonSize: '30px' }}>Nos prestations</Link>
           </li>
           <li>
-            <Link to='/devis'>Devis gratuit</Link>
+          <div className='buttons'>
+            <Link to='/devis' classname="btn btn-primary">Devis gratuit</Link>
+          </div>
           </li>
         </ul>
       </nav>

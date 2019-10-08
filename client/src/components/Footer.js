@@ -2,13 +2,15 @@ import React from 'react';
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from 'mdbreact';
 import { Link } from 'react-router-dom';
 
+import logo from '../img/Logo.png';
+
 const FooterPage = () => {
   return (
     <MDBFooter color='blue' className='font-small pt-5 footer'>
       <MDBContainer fluid className='text-center text-md-center'>
         <MDBRow>
           <MDBCol md='6'>
-            <h5 className='title'>Trapeze</h5>
+            <img src={logo} alt='logo' style={{ height: '8vh', width: 'auto' }} />
             <p>
               94, rue Paul Déroulède<br/> 92270, Bois-Colombes<br/> Tél. : 01 47 90 72 72<br/> Fax : 01 47 90 72 70<br/> E-mail: accueil@trapeze.fr
             </p>
